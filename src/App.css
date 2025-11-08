@@ -438,7 +438,7 @@ input:focus, textarea:focus, select:focus {
   border-radius: 20px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
   animation: slideIn 0.3s ease-out;
-  width: 1200px;
+  width: 1000px;
 }
 
 @keyframes slideIn {
