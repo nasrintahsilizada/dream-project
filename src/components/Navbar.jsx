@@ -19,15 +19,15 @@ const Navbar = () => {
         
         <div className="navbar-links">
           <Link to="/" className={isActive('/')}>
-            <span className="nav-icon">🏠</span>
+            <span className="nav-icon"></span>
             <span className="nav-text">Home</span>
           </Link>
           <Link to="/search" className={isActive('/search')}>
-            <span className="nav-icon">🔍</span>
+            <span className="nav-icon"></span>
             <span className="nav-text">Search</span>
           </Link>
           <Link to="/add" className={isActive('/add')}>
-            <span className="nav-icon">➕</span>
+            <span className="nav-icon"></span>
             <span className="nav-text">Add Destination</span>
           </Link>
         </div>

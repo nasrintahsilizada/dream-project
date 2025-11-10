@@ -35,7 +35,7 @@ const DestinationCard = ({ destination, onEdit, onDelete }) => {
             <img src={displayImage} alt={name} />
           ) : (
             <div className="image-placeholder">
-              <span className="placeholder-icon">🌍</span>
+              <span className="placeholder-icon"></span>
             </div>
           )}
           <span className="category-badge">{category}</span>
@@ -65,21 +65,21 @@ const DestinationCard = ({ destination, onEdit, onDelete }) => {
               className="btn-view"
               aria-label={`View details for ${name}`}
             >
-              👁️ View More
+               View More
             </button>
             <button
               onClick={() => onEdit(destination)}
               className="btn-edit"
               aria-label={`Edit ${name}`}
             >
-              ✏️ Edit
+               Edit
             </button>
             <button
               onClick={handleDelete}
               className="btn-delete"
               aria-label={`Delete ${name}`}
             >
-              🗑️ Delete
+               Delete
             </button>
           </div>
         </div>
@@ -108,7 +108,7 @@ const DestinationCard = ({ destination, onEdit, onDelete }) => {
               <div className="modal-rating">
                 <RatingStars rating={rating} readOnly />
               </div>
-              <p className="modal-category">📍 {category}</p>
+              <p className="modal-category"> {category}</p>
 
               {notes && (
                 <div className="modal-section">

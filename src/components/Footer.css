@@ -1,5 +1,5 @@
 .footer {
-  background: linear-gradient(135deg, #0A4741 0%, #0D5D56 100%);
+  background: linear-gradient(135deg, #e0f7fa 8%, #0288d1 100%);
   color: white;
   padding: 3rem 2rem 1.5rem;
   margin-top: auto;
@@ -15,7 +15,7 @@
   left: 0;
   right: 0;
   height: 3px;
-  background: linear-gradient(90deg, #8B5CF6, #EC4899, #3B82F6, #8B5CF6);
+  background: linear-gradient(90deg, #add8e6, #e0f7fa, #3B82F6, #87ceeb);
   background-size: 200% 100%;
   animation: gradientShift 3s ease infinite;
 }

@@ -35,7 +35,7 @@ const FiltersBar = ({
     <div className="filters-bar">
       <div className="filter-group">
         <label htmlFor="search">
-          🔍 Search
+           Search
         </label>
         <input
           type="text"
@@ -49,7 +49,7 @@ const FiltersBar = ({
 
       <div className="filter-group">
         <label htmlFor="category">
-          📍 Category
+           Category
         </label>
         <select
           id="category"
@@ -65,7 +65,7 @@ const FiltersBar = ({
 
       <div className="filter-group">
         <label htmlFor="sort">
-          🔄 Sort By
+           Sort By
         </label>
         <select
           id="sort"

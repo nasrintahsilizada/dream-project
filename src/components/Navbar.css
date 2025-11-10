@@ -1,5 +1,5 @@
 .navbar {
-  background: #0D5D56;
+  background: linear-gradient(to right, #e0f7fa, #0288d1);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
@@ -13,7 +13,7 @@
 
 .navbar.scrolled {
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
-  background: rgba(13, 93, 86, 0.95);
+  background: #add8e6;
   -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
 }
@@ -88,7 +88,7 @@
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 
 .nav-link {
@@ -103,7 +103,7 @@
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
   font-size: 0.95rem;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
   overflow: hidden;
   z-index: 1;
 }
@@ -135,7 +135,7 @@
 
 .nav-link.active {
   background: rgba(255, 255, 255, 0.95);
-  color: #7C3AED;
+  color: #b2ebf2;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   font-weight: 600;
   text-shadow: none;
@@ -162,7 +162,7 @@
 .brand-icon {
   font-size: 1.8rem;
   transition: transform 0.3s ease;
-  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.1));
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
 }
 
 .navbar-brand:hover .brand-icon {
@@ -188,7 +188,7 @@
     max-width: 100%;
     margin: 0;
     z-index: 1000;
-    background: #0D5D56;
+    background: #b2ebf2;
   }
 
   /* Ensure content has enough space at the bottom */

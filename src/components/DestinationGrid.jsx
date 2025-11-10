@@ -5,7 +5,7 @@ const DestinationGrid = ({ destinations, onEdit, onDelete }) => {
   if (destinations.length === 0) {
     return (
       <div className="empty-state">
-        <div className="empty-state-icon">🌎</div>
+        <div className="empty-state-icon"></div>
         <h2>No destinations yet!</h2>
         <p>Start planning your dream trips by adding your first destination above.</p>
       </div>
